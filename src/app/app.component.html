@@ -1,0 +1,4 @@
+<label for="radius">Radius</label>
+<input #radius id="radius" type="number">
+<button (click)="calcCircleArea(radius.value)">Calculate</button>
+<div id="result">Area: {{ area }}</div>
