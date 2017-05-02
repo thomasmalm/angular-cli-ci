@@ -9,5 +9,5 @@ before_script:
 install:
   - npm install
 script:
-  - npm test
+  - npm test:once
   - npm e2e
