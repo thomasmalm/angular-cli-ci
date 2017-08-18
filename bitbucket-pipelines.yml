@@ -4,6 +4,7 @@ pipelines:
   default:
     - step:
         script:
+          - apt-get install -y xvfb
           - npm install
           # Use Chromium instead of Chrome.
           - export CHROME_BIN=chromium-browser
